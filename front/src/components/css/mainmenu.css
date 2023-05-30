@@ -1,0 +1,77 @@
+.my-carousel{
+    padding: 0;
+}
+
+.my-carousel .carousel-item{
+    display: flex;
+    height: 500px;
+}
+
+.my-carousel .carousel-item img{
+    object-fit: cover;
+}
+
+.carousel-caption{
+    text-shadow: 1px 1px 10px #111;
+}
+
+.lead {
+    font-family: 'Lora', serif;
+    font-weight: normal;
+    line-height: 1.5em;
+    font-size: 50px;
+    color: black;
+    margin: 13px 0 8px;
+    letter-spacing: 0.08em;
+}
+
+.maintext{
+    font-family: 'PT Serif', serif;
+    line-height: 1.8;
+    color: #555555;
+    font-size: 30px;
+}
+
+.mainpicture{
+    width: 90%;
+}
+
+.dropdown-menu {
+    /* Стили для меню dropdown */
+    padding: 8px 0;
+    background-color: #f8f9fa;
+    border: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-item {
+    /* Стили для пунктов меню dropdown */
+    padding: 8px 16px;
+    color: #212529;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 20px;
+}
+
+.dropdown-item:hover {
+    background-color: #e9ecef;
+}
+
+.dropdown-divider {
+    /* Стили для разделителя в dropdown */
+    margin: 4px 0;
+    border-top: 1px solid #dee2e6;
+}
+
+.navbar-brand {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.navbar-nav .nav-link {
+    font-size: 25px;
+}
+
+.dropdown-toggle {
+    font-size: 25px;
+}

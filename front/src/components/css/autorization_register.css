@@ -1,0 +1,62 @@
+.register,
+.authorization{
+    background-image: url('https://trashbox.ru/ifiles/1669243_258876_close-up-of-code-on-a-computer-screen.jpeg_min1x2/2022-07-21-google-carbon-programming-language-s-plus-plus-4.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.App {
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 400px;
+    max-width: 90%;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin-bottom: 10px; /* Обновленное значение отступа */
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+p {
+    color: red;
+    margin-bottom: 10px;
+}
+
+.button-for-enter,
+.button-for-register {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.button-for-enter:hover,
+.button-for-register:hover {
+    background-color: #0056b3;
+}

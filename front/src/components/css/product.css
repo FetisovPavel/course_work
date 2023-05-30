@@ -1,0 +1,110 @@
+.maininf {
+    margin-top: 80px;
+    font-family: Georgia, serif;
+    line-height: 1.5em;
+    font-size: 20px;
+    color: #000;
+}
+
+.buttonsale{
+    margin: 0 auto;
+    display: block;
+}
+
+.price {
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    color: #000000;
+    margin-bottom: 10px; /* Add some spacing between the description and price */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stores {
+    font-family: Georgia, serif;
+    font-size: 20px;
+    color: #000000;
+    margin-top: 10px;
+    margin-bottom: -10px;
+}
+
+.mainlead{
+    font-size: 20px;
+}
+
+.mainlead img{
+    width: 175px;
+    height: 100px;
+}
+
+.maintextforsale{
+    padding:40px;
+}
+
+.mainpictureforsale img{
+    width: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.mainpictureforsale1 img{
+    padding:80px;
+    width: 800px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.mainpictureforsale2 img{
+    padding:80px;
+    width: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.mainpictureforsale3 img{
+    padding:80px;
+    width: 550px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+table {
+    font-family: Georgia, serif;
+    width: 100%;
+    font-size: 20px;
+}
+
+.cur {
+    width: 30%;
+}
+
+.name {
+    overflow: hidden;
+}
+
+.name span {
+    display: inline-block;
+    position: relative;
+}
+
+.name span:after {
+    content: '';
+    display: inline-block;
+    border-bottom: 1px dotted #333;
+    position: absolute;
+    left: 100%;
+    right: -9999px;
+    bottom: 0;
+}
+
+.description_inf{
+    font-family: Georgia, serif;
+    font-size: 20px;
+    line-height: 1.5em;
+    color: #000;
+}
