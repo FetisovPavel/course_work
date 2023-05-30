@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import {useNavigate} from "react-router-dom";
-import './css/autorization_register.css';
+import './css/authorization_register.css';
 
 export const RegistrationForm: React.FC = () => {
     const [username, setUsername] = useState('');

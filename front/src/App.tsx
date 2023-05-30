@@ -1,10 +1,10 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
-import {AuthorizationPage} from "./pages/authentication";
 import {RegistrationPage} from "./pages/register";
 import {MainMenuPage} from "./pages/mainmenu";
 import {CatalogPage} from "./pages/catalog";
 import {KugooHXplusPage} from "./pages/kugooHXplus";
+import {AuthorizationPage} from "./pages/authentication";
 
 function App() {
   return (

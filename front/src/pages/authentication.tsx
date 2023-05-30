@@ -1,8 +1,8 @@
 import React from 'react';
-import {Authentication} from "../components/Authentication";
+import {Authorization} from "../components/Authorization";
 
 export function AuthorizationPage(){
     return(
-        <Authentication />
+        <Authorization />
     )
 }
